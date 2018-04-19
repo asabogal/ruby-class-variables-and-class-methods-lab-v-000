@@ -4,6 +4,7 @@ class Song
 
   def initialize(name, artist, genre)
     @@counter += 1
+  end
 
 
 
