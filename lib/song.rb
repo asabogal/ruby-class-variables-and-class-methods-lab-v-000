@@ -26,11 +26,19 @@ class Song
   end
 
   def self.artists
-      @@artists = @@artists.uniq 
+      @@artists = @@artists.uniq
   end
 
   def self.genre_count
-    
+    #iterate over @@genres array and populate a NEW hash to:
+    #return the NEW hash with genre => count as its key:value pairs
+
   end
+
+    def self.artist_count
+      #iterate over @@artists array and populate a NEW hash to:
+      #return the NEW hash with genre => count as its key:value pairs
+
+    end
 
 end
