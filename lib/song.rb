@@ -9,7 +9,7 @@ class Song
 
   def initialize(name, artist, genre)
     @@count += 1
-    @@genres << genre unless @@genres.include?(genre)
+    @@genres << genre
   end
 
   def self.count
@@ -18,7 +18,8 @@ class Song
 
   def self.genres
     #retunrs array of all genres of the exisiting songs
-    #can't have duplicate genres [] << genre unless [].include?(genre)
+    #can't have duplicate @@genres = @@genres.uniq
+    
   end
 
 
