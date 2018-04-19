@@ -14,5 +14,10 @@ class Song
     @@count
   end
 
+  def self.genres
+    #retunrs array of all genres of the exisiting songs
+    #can't have duplicate genres [] << genre unless [].include?(genre)
+  end
+
 
 end
