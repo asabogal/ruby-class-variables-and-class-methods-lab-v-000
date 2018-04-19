@@ -43,7 +43,7 @@ class Song
         all_genres[gen] = 1
       end
     end
-
+    binding.pry
     all_genres
     # binding.pry
     #iterate over @@genres array and populate a NEW hash to:
