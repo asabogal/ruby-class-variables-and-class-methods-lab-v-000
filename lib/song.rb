@@ -21,7 +21,7 @@ class Song
   def self.genres
     #retunrs array of all genres of the exisiting songs
     #can't have duplicate:
-    @@genres = @@genres.uniq
+    @@genres #= @@genres.uniq
 
   end
 
