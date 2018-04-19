@@ -46,6 +46,7 @@ class Song
       all_artists = {}
       @@artists.each {|artist|
       all_artists[artist] ? all_artists[artist] += 1 : all_artists[artist] = 1}
+      all_artists
       #iterate over @@artists array and populate a NEW hash to:
       #return the NEW hash with genre => count as its key:value pairs
 
