@@ -35,7 +35,9 @@ class Song
   end
 
   def self.genre_count
-    binding.pry
+    all_genres = {}
+    @@genres.each {|gen| all_genres[gen] += 1}
+    all_genres
     #iterate over @@genres array and populate a NEW hash to:
     #return the NEW hash with genre => count as its key:value pairs
 
